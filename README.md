@@ -28,3 +28,10 @@ Para atualizar o aplicativo, substitua os arquivos do repositório. Se alterar o
 - O GitHub Pages publica repositórios públicos. Não coloque dados pessoais ou backups JSON no repositório.
 - Não há servidor, conta, sincronização em nuvem nem envio automático dos dados.
 - Em algumas versões do iOS, a opção de instalação muda de nome.
+
+
+## Upgrade v3 — editor de prescrição
+
+A aba **Editar plano** permite editar treinos completos, exportar um modelo JSON e importar prescrições semanais produzidas após análise do feedback. A importação não executa JavaScript e exige confirmação. **Antes de substituir arquivos no GitHub, exporte backup JSON**. Preserve o mesmo endereço do site. O armazenamento `maratona2027_v2` foi mantido para reutilizar registros existentes.
+
+**Importante:** na importação de uma semana já iniciada, os registros permanecem, mas a lista exibida pode mudar. Prefira importar prescrições futuras. As cargas e repetições antigas são indexadas pela posição do exercício; a atualização deve ser feita antes de iniciar a semana.
