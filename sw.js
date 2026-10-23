@@ -1,5 +1,5 @@
 /* Treino Maratona 2027 — cache de arquivos do aplicativo. Dados de treino ficam no localStorage. */
-const CACHE_NAME = 'maratona-2027-shell-v3';
+const CACHE_NAME = 'maratona-2027-shell-v4';
 const APP_FILES = ['./','./index.html','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-180.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)).then(() => self.skipWaiting()));

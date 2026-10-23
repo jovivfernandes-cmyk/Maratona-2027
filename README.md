@@ -35,3 +35,10 @@ Para atualizar o aplicativo, substitua os arquivos do repositório. Se alterar o
 A aba **Editar plano** permite editar treinos completos, exportar um modelo JSON e importar prescrições semanais produzidas após análise do feedback. A importação não executa JavaScript e exige confirmação. **Antes de substituir arquivos no GitHub, exporte backup JSON**. Preserve o mesmo endereço do site. O armazenamento `maratona2027_v2` foi mantido para reutilizar registros existentes.
 
 **Importante:** na importação de uma semana já iniciada, os registros permanecem, mas a lista exibida pode mudar. Prefira importar prescrições futuras. As cargas e repetições antigas são indexadas pela posição do exercício; a atualização deve ser feita antes de iniciar a semana.
+
+
+## Versao 4 - correcao de musculacao
+- Cargas, repeticoes, PSE e observacoes sao salvos conforme digitados.
+- Marcar exercicio nao recria formulario nem desativa botao Salvar sessao.
+- Cache atualizado para v4.
+- Faca backup JSON antes de atualizar.
